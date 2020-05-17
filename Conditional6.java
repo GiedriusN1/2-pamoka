@@ -11,10 +11,10 @@ public class Conditional6
 	   System.out.println("Enter the second Float number: ");
 	   b = Float.valueOf(System.console().readLine());
 	   
-	    a = Math.round(a * 1000);
-        a = a / 1000;
-	    b = Math.round(b * 1000);
-        b = b / 1000;
+	    a = Math.round(a * 1000) / 1000;
+       // a = a / 1000;
+	    b = Math.round(b * 1000) / 1000;
+       // b = b / 1000;
    
         if (a == b) 
 		{
